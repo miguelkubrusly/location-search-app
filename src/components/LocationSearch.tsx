@@ -1,6 +1,5 @@
 import { Fragment, useState } from "react";
 import { searchPlaces } from "../api/searchPlaces";
-import { Dispatch, SetStateAction } from "react";
 
 interface LocationSearchProps {
   onLocationClick: (place: Place) => void;
